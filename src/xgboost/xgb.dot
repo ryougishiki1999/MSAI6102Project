@@ -1,0 +1,1985 @@
+digraph {
+    graph [ rankdir=TB ]
+
+    0 [ label="dayofyear<91" ]
+    0 -> 1 [label="yes" color="#FF0000"]
+    0 -> 2 [label="no, missing" color="#0000FF"]
+
+    1 [ label="month<3" ]
+    1 -> 3 [label="yes" color="#FF0000"]
+    1 -> 4 [label="no, missing" color="#0000FF"]
+
+    3 [ label="dayofweek<4" ]
+    3 -> 7 [label="yes" color="#FF0000"]
+    3 -> 8 [label="no, missing" color="#0000FF"]
+
+    7 [ label="year<2014" ]
+    7 -> 15 [label="yes" color="#FF0000"]
+    7 -> 16 [label="no, missing" color="#0000FF"]
+
+    15 [ label="dayofweek<1" ]
+    15 -> 31 [label="yes" color="#FF0000"]
+    15 -> 32 [label="no, missing" color="#0000FF"]
+
+    31 [ label="month<2" ]
+    31 -> 63 [label="yes" color="#FF0000"]
+    31 -> 64 [label="no, missing" color="#0000FF"]
+
+    63 [ label="leaf=-6.37543344" ]
+
+    64 [ label="leaf=-5.790277" ]
+
+    32 [ label="month<2" ]
+    32 -> 65 [label="yes" color="#FF0000"]
+    32 -> 66 [label="no, missing" color="#0000FF"]
+
+    65 [ label="dayofweek<3" ]
+    65 -> 127 [label="yes" color="#FF0000"]
+    65 -> 128 [label="no, missing" color="#0000FF"]
+
+    127 [ label="leaf=-5.4736433" ]
+
+    128 [ label="leaf=-5.11138344" ]
+
+    66 [ label="dayofweek<3" ]
+    66 -> 129 [label="yes" color="#FF0000"]
+    66 -> 130 [label="no, missing" color="#0000FF"]
+
+    129 [ label="leaf=-4.88514853" ]
+
+    130 [ label="leaf=-4.33915997" ]
+
+    16 [ label="dayofweek<1" ]
+    16 -> 33 [label="yes" color="#FF0000"]
+    16 -> 34 [label="no, missing" color="#0000FF"]
+
+    33 [ label="year<2016" ]
+    33 -> 67 [label="yes" color="#FF0000"]
+    33 -> 68 [label="no, missing" color="#0000FF"]
+
+    67 [ label="month<2" ]
+    67 -> 131 [label="yes" color="#FF0000"]
+    67 -> 132 [label="no, missing" color="#0000FF"]
+
+    131 [ label="year<2015" ]
+    131 -> 241 [label="yes" color="#FF0000"]
+    131 -> 242 [label="no, missing" color="#0000FF"]
+
+    241 [ label="leaf=-5.61340666" ]
+
+    242 [ label="leaf=-5.31340218" ]
+
+    132 [ label="year<2015" ]
+    132 -> 243 [label="yes" color="#FF0000"]
+    132 -> 244 [label="no, missing" color="#0000FF"]
+
+    243 [ label="leaf=-4.89216471" ]
+
+    244 [ label="leaf=-4.6834197" ]
+
+    68 [ label="month<2" ]
+    68 -> 133 [label="yes" color="#FF0000"]
+    68 -> 134 [label="no, missing" color="#0000FF"]
+
+    133 [ label="year<2017" ]
+    133 -> 245 [label="yes" color="#FF0000"]
+    133 -> 246 [label="no, missing" color="#0000FF"]
+
+    245 [ label="leaf=-4.81658459" ]
+
+    246 [ label="leaf=-4.55050468" ]
+
+    134 [ label="year<2017" ]
+    134 -> 247 [label="yes" color="#FF0000"]
+    134 -> 248 [label="no, missing" color="#0000FF"]
+
+    247 [ label="leaf=-4.00407934" ]
+
+    248 [ label="leaf=-3.66849089" ]
+
+    34 [ label="year<2016" ]
+    34 -> 69 [label="yes" color="#FF0000"]
+    34 -> 70 [label="no, missing" color="#0000FF"]
+
+    69 [ label="month<2" ]
+    69 -> 135 [label="yes" color="#FF0000"]
+    69 -> 136 [label="no, missing" color="#0000FF"]
+
+    135 [ label="dayofweek<3" ]
+    135 -> 249 [label="yes" color="#FF0000"]
+    135 -> 250 [label="no, missing" color="#0000FF"]
+
+    249 [ label="year<2015" ]
+    249 -> 413 [label="yes" color="#FF0000"]
+    249 -> 414 [label="no, missing" color="#0000FF"]
+
+    413 [ label="leaf=-4.57921267" ]
+
+    414 [ label="leaf=-4.27324152" ]
+
+    250 [ label="year<2015" ]
+    250 -> 415 [label="yes" color="#FF0000"]
+    250 -> 416 [label="no, missing" color="#0000FF"]
+
+    415 [ label="leaf=-4.00487232" ]
+
+    416 [ label="leaf=-3.77980852" ]
+
+    136 [ label="dayofweek<3" ]
+    136 -> 251 [label="yes" color="#FF0000"]
+    136 -> 252 [label="no, missing" color="#0000FF"]
+
+    251 [ label="year<2015" ]
+    251 -> 417 [label="yes" color="#FF0000"]
+    251 -> 418 [label="no, missing" color="#0000FF"]
+
+    417 [ label="leaf=-3.74799991" ]
+
+    418 [ label="leaf=-3.50509906" ]
+
+    252 [ label="year<2015" ]
+    252 -> 419 [label="yes" color="#FF0000"]
+    252 -> 420 [label="no, missing" color="#0000FF"]
+
+    419 [ label="leaf=-3.25383353" ]
+
+    420 [ label="leaf=-2.80604696" ]
+
+    70 [ label="month<2" ]
+    70 -> 137 [label="yes" color="#FF0000"]
+    70 -> 138 [label="no, missing" color="#0000FF"]
+
+    137 [ label="dayofweek<3" ]
+    137 -> 253 [label="yes" color="#FF0000"]
+    137 -> 254 [label="no, missing" color="#0000FF"]
+
+    253 [ label="year<2017" ]
+    253 -> 421 [label="yes" color="#FF0000"]
+    253 -> 422 [label="no, missing" color="#0000FF"]
+
+    421 [ label="leaf=-3.65473175" ]
+
+    422 [ label="leaf=-3.33199883" ]
+
+    254 [ label="year<2017" ]
+    254 -> 423 [label="yes" color="#FF0000"]
+    254 -> 424 [label="no, missing" color="#0000FF"]
+
+    423 [ label="leaf=-3.08820343" ]
+
+    424 [ label="leaf=-2.82815075" ]
+
+    138 [ label="dayofweek<3" ]
+    138 -> 255 [label="yes" color="#FF0000"]
+    138 -> 256 [label="no, missing" color="#0000FF"]
+
+    255 [ label="year<2017" ]
+    255 -> 425 [label="yes" color="#FF0000"]
+    255 -> 426 [label="no, missing" color="#0000FF"]
+
+    425 [ label="leaf=-2.77212524" ]
+
+    426 [ label="leaf=-2.42880273" ]
+
+    256 [ label="year<2017" ]
+    256 -> 427 [label="yes" color="#FF0000"]
+    256 -> 428 [label="no, missing" color="#0000FF"]
+
+    427 [ label="leaf=-2.22286034" ]
+
+    428 [ label="leaf=-1.81280303" ]
+
+    8 [ label="year<2016" ]
+    8 -> 17 [label="yes" color="#FF0000"]
+    8 -> 18 [label="no, missing" color="#0000FF"]
+
+    17 [ label="year<2014" ]
+    17 -> 35 [label="yes" color="#FF0000"]
+    17 -> 36 [label="no, missing" color="#0000FF"]
+
+    35 [ label="dayofyear<27" ]
+    35 -> 71 [label="yes" color="#FF0000"]
+    35 -> 72 [label="no, missing" color="#0000FF"]
+
+    71 [ label="dayofweek<6" ]
+    71 -> 139 [label="yes" color="#FF0000"]
+    71 -> 140 [label="no, missing" color="#0000FF"]
+
+    139 [ label="dayofweek<5" ]
+    139 -> 257 [label="yes" color="#FF0000"]
+    139 -> 258 [label="no, missing" color="#0000FF"]
+
+    257 [ label="leaf=-4.59104109" ]
+
+    258 [ label="leaf=-4.3187232" ]
+
+    140 [ label="dayofyear<7" ]
+    140 -> 259 [label="yes" color="#FF0000"]
+    140 -> 260 [label="no, missing" color="#0000FF"]
+
+    259 [ label="leaf=-3.93155408" ]
+
+    260 [ label="leaf=-3.59170198" ]
+
+    72 [ label="dayofweek<5" ]
+    72 -> 141 [label="yes" color="#FF0000"]
+    72 -> 142 [label="no, missing" color="#0000FF"]
+
+    141 [ label="dayofyear<40" ]
+    141 -> 261 [label="yes" color="#FF0000"]
+    141 -> 262 [label="no, missing" color="#0000FF"]
+
+    261 [ label="leaf=-3.65176964" ]
+
+    262 [ label="leaf=-3.9047184" ]
+
+    142 [ label="dayofyear<34" ]
+    142 -> 263 [label="yes" color="#FF0000"]
+    142 -> 264 [label="no, missing" color="#0000FF"]
+
+    263 [ label="month<2" ]
+    263 -> 429 [label="yes" color="#FF0000"]
+    263 -> 430 [label="no, missing" color="#0000FF"]
+
+    429 [ label="leaf=-3.70238256" ]
+
+    430 [ label="leaf=-3.37357903" ]
+
+    264 [ label="dayofweek<6" ]
+    264 -> 431 [label="yes" color="#FF0000"]
+    264 -> 432 [label="no, missing" color="#0000FF"]
+
+    431 [ label="leaf=-3.29657292" ]
+
+    432 [ label="leaf=-2.90238643" ]
+
+    36 [ label="month<2" ]
+    36 -> 73 [label="yes" color="#FF0000"]
+    36 -> 74 [label="no, missing" color="#0000FF"]
+
+    73 [ label="dayofweek<5" ]
+    73 -> 143 [label="yes" color="#FF0000"]
+    73 -> 144 [label="no, missing" color="#0000FF"]
+
+    143 [ label="year<2015" ]
+    143 -> 265 [label="yes" color="#FF0000"]
+    143 -> 266 [label="no, missing" color="#0000FF"]
+
+    265 [ label="dayofyear<11" ]
+    265 -> 433 [label="yes" color="#FF0000"]
+    265 -> 434 [label="no, missing" color="#0000FF"]
+
+    433 [ label="leaf=-3.73032022" ]
+
+    434 [ label="leaf=-3.48471236" ]
+
+    266 [ label="leaf=-3.25120449" ]
+
+    144 [ label="dayofweek<6" ]
+    144 -> 267 [label="yes" color="#FF0000"]
+    144 -> 268 [label="no, missing" color="#0000FF"]
+
+    267 [ label="year<2015" ]
+    267 -> 435 [label="yes" color="#FF0000"]
+    267 -> 436 [label="no, missing" color="#0000FF"]
+
+    435 [ label="leaf=-3.06472206" ]
+
+    436 [ label="leaf=-2.71539021" ]
+
+    268 [ label="year<2015" ]
+    268 -> 437 [label="yes" color="#FF0000"]
+    268 -> 438 [label="no, missing" color="#0000FF"]
+
+    437 [ label="leaf=-2.59514117" ]
+
+    438 [ label="leaf=-2.09850621" ]
+
+    74 [ label="dayofweek<5" ]
+    74 -> 145 [label="yes" color="#FF0000"]
+    74 -> 146 [label="no, missing" color="#0000FF"]
+
+    145 [ label="year<2015" ]
+    145 -> 269 [label="yes" color="#FF0000"]
+    145 -> 270 [label="no, missing" color="#0000FF"]
+
+    269 [ label="dayofyear<40" ]
+    269 -> 439 [label="yes" color="#FF0000"]
+    269 -> 440 [label="no, missing" color="#0000FF"]
+
+    439 [ label="leaf=-2.92745137" ]
+
+    440 [ label="leaf=-2.73643947" ]
+
+    270 [ label="leaf=-2.34040546" ]
+
+    146 [ label="dayofweek<6" ]
+    146 -> 271 [label="yes" color="#FF0000"]
+    146 -> 272 [label="no, missing" color="#0000FF"]
+
+    271 [ label="year<2015" ]
+    271 -> 441 [label="yes" color="#FF0000"]
+    271 -> 442 [label="no, missing" color="#0000FF"]
+
+    441 [ label="leaf=-2.16614223" ]
+
+    442 [ label="leaf=-1.73531818" ]
+
+    272 [ label="year<2015" ]
+    272 -> 443 [label="yes" color="#FF0000"]
+    272 -> 444 [label="no, missing" color="#0000FF"]
+
+    443 [ label="leaf=-1.56004405" ]
+
+    444 [ label="leaf=-1.24745345" ]
+
+    18 [ label="month<2" ]
+    18 -> 37 [label="yes" color="#FF0000"]
+    18 -> 38 [label="no, missing" color="#0000FF"]
+
+    37 [ label="dayofweek<5" ]
+    37 -> 75 [label="yes" color="#FF0000"]
+    37 -> 76 [label="no, missing" color="#0000FF"]
+
+    75 [ label="year<2017" ]
+    75 -> 147 [label="yes" color="#FF0000"]
+    75 -> 148 [label="no, missing" color="#0000FF"]
+
+    147 [ label="dayofyear<3" ]
+    147 -> 273 [label="yes" color="#FF0000"]
+    147 -> 274 [label="no, missing" color="#0000FF"]
+
+    273 [ label="leaf=-2.68155646" ]
+
+    274 [ label="leaf=-2.52690554" ]
+
+    148 [ label="dayofyear<14" ]
+    148 -> 275 [label="yes" color="#FF0000"]
+    148 -> 276 [label="no, missing" color="#0000FF"]
+
+    275 [ label="leaf=-2.1233716" ]
+
+    276 [ label="leaf=-2.3067739" ]
+
+    76 [ label="dayofweek<6" ]
+    76 -> 149 [label="yes" color="#FF0000"]
+    76 -> 150 [label="no, missing" color="#0000FF"]
+
+    149 [ label="year<2017" ]
+    149 -> 277 [label="yes" color="#FF0000"]
+    149 -> 278 [label="no, missing" color="#0000FF"]
+
+    277 [ label="dayofyear<10" ]
+    277 -> 445 [label="yes" color="#FF0000"]
+    277 -> 446 [label="no, missing" color="#0000FF"]
+
+    445 [ label="leaf=-2.07073665" ]
+
+    446 [ label="leaf=-1.90301633" ]
+
+    278 [ label="dayofyear<16" ]
+    278 -> 447 [label="yes" color="#FF0000"]
+    278 -> 448 [label="no, missing" color="#0000FF"]
+
+    447 [ label="leaf=-1.56480944" ]
+
+    448 [ label="leaf=-1.75342727" ]
+
+    150 [ label="year<2017" ]
+    150 -> 279 [label="yes" color="#FF0000"]
+    150 -> 280 [label="no, missing" color="#0000FF"]
+
+    279 [ label="dayofyear<19" ]
+    279 -> 449 [label="yes" color="#FF0000"]
+    279 -> 450 [label="no, missing" color="#0000FF"]
+
+    449 [ label="leaf=-1.34493518" ]
+
+    450 [ label="leaf=-1.67252469" ]
+
+    280 [ label="dayofyear<23" ]
+    280 -> 451 [label="yes" color="#FF0000"]
+    280 -> 452 [label="no, missing" color="#0000FF"]
+
+    451 [ label="leaf=-1.10502815" ]
+
+    452 [ label="leaf=-1.00583684" ]
+
+    38 [ label="dayofweek<5" ]
+    38 -> 77 [label="yes" color="#FF0000"]
+    38 -> 78 [label="no, missing" color="#0000FF"]
+
+    77 [ label="year<2017" ]
+    77 -> 151 [label="yes" color="#FF0000"]
+    77 -> 152 [label="no, missing" color="#0000FF"]
+
+    151 [ label="dayofyear<37" ]
+    151 -> 281 [label="yes" color="#FF0000"]
+    151 -> 282 [label="no, missing" color="#0000FF"]
+
+    281 [ label="leaf=-1.75412059" ]
+
+    282 [ label="leaf=-1.52782559" ]
+
+    152 [ label="dayofyear<36" ]
+    152 -> 283 [label="yes" color="#FF0000"]
+    152 -> 284 [label="no, missing" color="#0000FF"]
+
+    283 [ label="leaf=-1.33278668" ]
+
+    284 [ label="dayofyear<43" ]
+    284 -> 453 [label="yes" color="#FF0000"]
+    284 -> 454 [label="no, missing" color="#0000FF"]
+
+    453 [ label="leaf=-1.00295556" ]
+
+    454 [ label="leaf=-1.17049062" ]
+
+    78 [ label="dayofweek<6" ]
+    78 -> 153 [label="yes" color="#FF0000"]
+    78 -> 154 [label="no, missing" color="#0000FF"]
+
+    153 [ label="year<2017" ]
+    153 -> 285 [label="yes" color="#FF0000"]
+    153 -> 286 [label="no, missing" color="#0000FF"]
+
+    285 [ label="dayofyear<38" ]
+    285 -> 455 [label="yes" color="#FF0000"]
+    285 -> 456 [label="no, missing" color="#0000FF"]
+
+    455 [ label="leaf=-0.942128241" ]
+
+    456 [ label="leaf=-0.849082172" ]
+
+    286 [ label="dayofyear<36" ]
+    286 -> 457 [label="yes" color="#FF0000"]
+    286 -> 458 [label="no, missing" color="#0000FF"]
+
+    457 [ label="leaf=-0.649475276" ]
+
+    458 [ label="leaf=-0.512443602" ]
+
+    154 [ label="year<2017" ]
+    154 -> 287 [label="yes" color="#FF0000"]
+    154 -> 288 [label="no, missing" color="#0000FF"]
+
+    287 [ label="dayofyear<40" ]
+    287 -> 459 [label="yes" color="#FF0000"]
+    287 -> 460 [label="no, missing" color="#0000FF"]
+
+    459 [ label="leaf=-0.628708839" ]
+
+    460 [ label="leaf=-0.237644494" ]
+
+    288 [ label="dayofyear<37" ]
+    288 -> 461 [label="yes" color="#FF0000"]
+    288 -> 462 [label="no, missing" color="#0000FF"]
+
+    461 [ label="leaf=-0.0125566246" ]
+
+    462 [ label="leaf=0.0847620443" ]
+
+    4 [ label="dayofweek<4" ]
+    4 -> 9 [label="yes" color="#FF0000"]
+    4 -> 10 [label="no, missing" color="#0000FF"]
+
+    9 [ label="year<2016" ]
+    9 -> 19 [label="yes" color="#FF0000"]
+    9 -> 20 [label="no, missing" color="#0000FF"]
+
+    19 [ label="dayofweek<1" ]
+    19 -> 39 [label="yes" color="#FF0000"]
+    19 -> 40 [label="no, missing" color="#0000FF"]
+
+    39 [ label="year<2014" ]
+    39 -> 79 [label="yes" color="#FF0000"]
+    39 -> 80 [label="no, missing" color="#0000FF"]
+
+    79 [ label="leaf=-4.64941454" ]
+
+    80 [ label="year<2015" ]
+    80 -> 155 [label="yes" color="#FF0000"]
+    80 -> 156 [label="no, missing" color="#0000FF"]
+
+    155 [ label="leaf=-3.53269434" ]
+
+    156 [ label="leaf=-3.23999572" ]
+
+    40 [ label="year<2014" ]
+    40 -> 81 [label="yes" color="#FF0000"]
+    40 -> 82 [label="no, missing" color="#0000FF"]
+
+    81 [ label="dayofweek<3" ]
+    81 -> 157 [label="yes" color="#FF0000"]
+    81 -> 158 [label="no, missing" color="#0000FF"]
+
+    157 [ label="leaf=-3.4869628" ]
+
+    158 [ label="dayofyear<81" ]
+    158 -> 289 [label="yes" color="#FF0000"]
+    158 -> 290 [label="no, missing" color="#0000FF"]
+
+    289 [ label="leaf=-2.98183537" ]
+
+    290 [ label="leaf=-2.78677511" ]
+
+    82 [ label="dayofweek<3" ]
+    82 -> 159 [label="yes" color="#FF0000"]
+    82 -> 160 [label="no, missing" color="#0000FF"]
+
+    159 [ label="year<2015" ]
+    159 -> 291 [label="yes" color="#FF0000"]
+    159 -> 292 [label="no, missing" color="#0000FF"]
+
+    291 [ label="dayofyear<65" ]
+    291 -> 463 [label="yes" color="#FF0000"]
+    291 -> 464 [label="no, missing" color="#0000FF"]
+
+    463 [ label="leaf=-2.20146394" ]
+
+    464 [ label="leaf=-2.34510255" ]
+
+    292 [ label="dayofyear<85" ]
+    292 -> 465 [label="yes" color="#FF0000"]
+    292 -> 466 [label="no, missing" color="#0000FF"]
+
+    465 [ label="leaf=-1.92037964" ]
+
+    466 [ label="leaf=-1.7112658" ]
+
+    160 [ label="year<2015" ]
+    160 -> 293 [label="yes" color="#FF0000"]
+    160 -> 294 [label="no, missing" color="#0000FF"]
+
+    293 [ label="dayofyear<80" ]
+    293 -> 467 [label="yes" color="#FF0000"]
+    293 -> 468 [label="no, missing" color="#0000FF"]
+
+    467 [ label="leaf=-1.6291126" ]
+
+    468 [ label="leaf=-1.88428688" ]
+
+    294 [ label="dayofyear<65" ]
+    294 -> 469 [label="yes" color="#FF0000"]
+    294 -> 470 [label="no, missing" color="#0000FF"]
+
+    469 [ label="leaf=-1.12887883" ]
+
+    470 [ label="leaf=-1.32200778" ]
+
+    20 [ label="dayofweek<1" ]
+    20 -> 41 [label="yes" color="#FF0000"]
+    20 -> 42 [label="no, missing" color="#0000FF"]
+
+    41 [ label="year<2017" ]
+    41 -> 83 [label="yes" color="#FF0000"]
+    41 -> 84 [label="no, missing" color="#0000FF"]
+
+    83 [ label="dayofyear<68" ]
+    83 -> 161 [label="yes" color="#FF0000"]
+    83 -> 162 [label="no, missing" color="#0000FF"]
+
+    161 [ label="leaf=-2.73268723" ]
+
+    162 [ label="leaf=-2.55584407" ]
+
+    84 [ label="leaf=-2.30348659" ]
+
+    42 [ label="dayofweek<3" ]
+    42 -> 85 [label="yes" color="#FF0000"]
+    42 -> 86 [label="no, missing" color="#0000FF"]
+
+    85 [ label="year<2017" ]
+    85 -> 163 [label="yes" color="#FF0000"]
+    85 -> 164 [label="no, missing" color="#0000FF"]
+
+    163 [ label="dayofweek<2" ]
+    163 -> 295 [label="yes" color="#FF0000"]
+    163 -> 296 [label="no, missing" color="#0000FF"]
+
+    295 [ label="dayofyear<63" ]
+    295 -> 471 [label="yes" color="#FF0000"]
+    295 -> 472 [label="no, missing" color="#0000FF"]
+
+    471 [ label="leaf=-0.901080191" ]
+
+    472 [ label="leaf=-1.03759289" ]
+
+    296 [ label="dayofyear<84" ]
+    296 -> 473 [label="yes" color="#FF0000"]
+    296 -> 474 [label="no, missing" color="#0000FF"]
+
+    473 [ label="leaf=-1.15192294" ]
+
+    474 [ label="leaf=-0.913148642" ]
+
+    164 [ label="dayofyear<74" ]
+    164 -> 297 [label="yes" color="#FF0000"]
+    164 -> 298 [label="no, missing" color="#0000FF"]
+
+    297 [ label="dayofyear<61" ]
+    297 -> 475 [label="yes" color="#FF0000"]
+    297 -> 476 [label="no, missing" color="#0000FF"]
+
+    475 [ label="leaf=-0.913465261" ]
+
+    476 [ label="leaf=-0.566616714" ]
+
+    298 [ label="dayofweek<2" ]
+    298 -> 477 [label="yes" color="#FF0000"]
+    298 -> 478 [label="no, missing" color="#0000FF"]
+
+    477 [ label="leaf=-0.710783541" ]
+
+    478 [ label="leaf=-0.907817304" ]
+
+    86 [ label="year<2017" ]
+    86 -> 165 [label="yes" color="#FF0000"]
+    86 -> 166 [label="no, missing" color="#0000FF"]
+
+    165 [ label="dayofyear<78" ]
+    165 -> 299 [label="yes" color="#FF0000"]
+    165 -> 300 [label="no, missing" color="#0000FF"]
+
+    299 [ label="dayofyear<64" ]
+    299 -> 479 [label="yes" color="#FF0000"]
+    299 -> 480 [label="no, missing" color="#0000FF"]
+
+    479 [ label="leaf=-0.140421703" ]
+
+    480 [ label="leaf=-0.354968518" ]
+
+    300 [ label="leaf=-0.104493171" ]
+
+    166 [ label="dayofyear<70" ]
+    166 -> 301 [label="yes" color="#FF0000"]
+    166 -> 302 [label="no, missing" color="#0000FF"]
+
+    301 [ label="dayofyear<63" ]
+    301 -> 481 [label="yes" color="#FF0000"]
+    301 -> 482 [label="no, missing" color="#0000FF"]
+
+    481 [ label="leaf=-0.161892354" ]
+
+    482 [ label="leaf=-0.102537923" ]
+
+    302 [ label="dayofyear<83" ]
+    302 -> 483 [label="yes" color="#FF0000"]
+    302 -> 484 [label="no, missing" color="#0000FF"]
+
+    483 [ label="leaf=0.0575885512" ]
+
+    484 [ label="leaf=0.198540702" ]
+
+    10 [ label="year<2015" ]
+    10 -> 21 [label="yes" color="#FF0000"]
+    10 -> 22 [label="no, missing" color="#0000FF"]
+
+    21 [ label="year<2014" ]
+    21 -> 43 [label="yes" color="#FF0000"]
+    21 -> 44 [label="no, missing" color="#0000FF"]
+
+    43 [ label="dayofweek<6" ]
+    43 -> 87 [label="yes" color="#FF0000"]
+    43 -> 88 [label="no, missing" color="#0000FF"]
+
+    87 [ label="dayofweek<5" ]
+    87 -> 167 [label="yes" color="#FF0000"]
+    87 -> 168 [label="no, missing" color="#0000FF"]
+
+    167 [ label="dayofyear<83" ]
+    167 -> 303 [label="yes" color="#FF0000"]
+    167 -> 304 [label="no, missing" color="#0000FF"]
+
+    303 [ label="leaf=-2.26401401" ]
+
+    304 [ label="leaf=-2.46901155" ]
+
+    168 [ label="dayofyear<77" ]
+    168 -> 305 [label="yes" color="#FF0000"]
+    168 -> 306 [label="no, missing" color="#0000FF"]
+
+    305 [ label="leaf=-1.72568798" ]
+
+    306 [ label="dayofyear<83" ]
+    306 -> 485 [label="yes" color="#FF0000"]
+    306 -> 486 [label="no, missing" color="#0000FF"]
+
+    485 [ label="leaf=-1.95467818" ]
+
+    486 [ label="leaf=-1.69403553" ]
+
+    88 [ label="dayofyear<84" ]
+    88 -> 169 [label="yes" color="#FF0000"]
+    88 -> 170 [label="no, missing" color="#0000FF"]
+
+    169 [ label="dayofyear<70" ]
+    169 -> 307 [label="yes" color="#FF0000"]
+    169 -> 308 [label="no, missing" color="#0000FF"]
+
+    307 [ label="leaf=-1.14977574" ]
+
+    308 [ label="dayofyear<77" ]
+    308 -> 487 [label="yes" color="#FF0000"]
+    308 -> 488 [label="no, missing" color="#0000FF"]
+
+    487 [ label="leaf=-1.2742964" ]
+
+    488 [ label="leaf=-1.38032007" ]
+
+    170 [ label="leaf=-1.10482764" ]
+
+    44 [ label="dayofweek<5" ]
+    44 -> 89 [label="yes" color="#FF0000"]
+    44 -> 90 [label="no, missing" color="#0000FF"]
+
+    89 [ label="dayofyear<74" ]
+    89 -> 171 [label="yes" color="#FF0000"]
+    89 -> 172 [label="no, missing" color="#0000FF"]
+
+    171 [ label="dayofyear<67" ]
+    171 -> 309 [label="yes" color="#FF0000"]
+    171 -> 310 [label="no, missing" color="#0000FF"]
+
+    309 [ label="leaf=-0.712279677" ]
+
+    310 [ label="leaf=-0.874824703" ]
+
+    172 [ label="leaf=-1.07010627" ]
+
+    90 [ label="dayofweek<6" ]
+    90 -> 173 [label="yes" color="#FF0000"]
+    90 -> 174 [label="no, missing" color="#0000FF"]
+
+    173 [ label="dayofyear<75" ]
+    173 -> 311 [label="yes" color="#FF0000"]
+    173 -> 312 [label="no, missing" color="#0000FF"]
+
+    311 [ label="dayofyear<68" ]
+    311 -> 489 [label="yes" color="#FF0000"]
+    311 -> 490 [label="no, missing" color="#0000FF"]
+
+    489 [ label="leaf=-0.298415214" ]
+
+    490 [ label="leaf=-0.206067875" ]
+
+    312 [ label="dayofyear<83" ]
+    312 -> 491 [label="yes" color="#FF0000"]
+    312 -> 492 [label="no, missing" color="#0000FF"]
+
+    491 [ label="leaf=-0.363898575" ]
+
+    492 [ label="leaf=-0.316558927" ]
+
+    174 [ label="dayofyear<83" ]
+    174 -> 313 [label="yes" color="#FF0000"]
+    174 -> 314 [label="no, missing" color="#0000FF"]
+
+    313 [ label="dayofyear<63" ]
+    313 -> 493 [label="yes" color="#FF0000"]
+    313 -> 494 [label="no, missing" color="#0000FF"]
+
+    493 [ label="leaf=0.254435927" ]
+
+    494 [ label="leaf=0.294807166" ]
+
+    314 [ label="leaf=0.253510416" ]
+
+    22 [ label="year<2016" ]
+    22 -> 45 [label="yes" color="#FF0000"]
+    22 -> 46 [label="no, missing" color="#0000FF"]
+
+    45 [ label="dayofweek<6" ]
+    45 -> 91 [label="yes" color="#FF0000"]
+    45 -> 92 [label="no, missing" color="#0000FF"]
+
+    91 [ label="dayofweek<5" ]
+    91 -> 175 [label="yes" color="#FF0000"]
+    91 -> 176 [label="no, missing" color="#0000FF"]
+
+    175 [ label="dayofyear<73" ]
+    175 -> 315 [label="yes" color="#FF0000"]
+    175 -> 316 [label="no, missing" color="#0000FF"]
+
+    315 [ label="dayofyear<67" ]
+    315 -> 495 [label="yes" color="#FF0000"]
+    315 -> 496 [label="no, missing" color="#0000FF"]
+
+    495 [ label="leaf=-0.443903178" ]
+
+    496 [ label="leaf=-0.368562758" ]
+
+    316 [ label="dayofyear<80" ]
+    316 -> 497 [label="yes" color="#FF0000"]
+    316 -> 498 [label="no, missing" color="#0000FF"]
+
+    497 [ label="leaf=-0.553243518" ]
+
+    498 [ label="leaf=-0.484448731" ]
+
+    176 [ label="dayofyear<74" ]
+    176 -> 317 [label="yes" color="#FF0000"]
+    176 -> 318 [label="no, missing" color="#0000FF"]
+
+    317 [ label="dayofyear<67" ]
+    317 -> 499 [label="yes" color="#FF0000"]
+    317 -> 500 [label="no, missing" color="#0000FF"]
+
+    499 [ label="leaf=0.333539218" ]
+
+    500 [ label="leaf=0.240118101" ]
+
+    318 [ label="dayofyear<81" ]
+    318 -> 501 [label="yes" color="#FF0000"]
+    318 -> 502 [label="no, missing" color="#0000FF"]
+
+    501 [ label="leaf=-0.00927528553" ]
+
+    502 [ label="leaf=-0.0521088168" ]
+
+    92 [ label="dayofyear<83" ]
+    92 -> 177 [label="yes" color="#FF0000"]
+    92 -> 178 [label="no, missing" color="#0000FF"]
+
+    177 [ label="dayofyear<61" ]
+    177 -> 319 [label="yes" color="#FF0000"]
+    177 -> 320 [label="no, missing" color="#0000FF"]
+
+    319 [ label="leaf=1.13130653" ]
+
+    320 [ label="dayofyear<75" ]
+    320 -> 503 [label="yes" color="#FF0000"]
+    320 -> 504 [label="no, missing" color="#0000FF"]
+
+    503 [ label="leaf=0.862219453" ]
+
+    504 [ label="leaf=0.999651194" ]
+
+    178 [ label="leaf=1.15507007" ]
+
+    46 [ label="dayofweek<5" ]
+    46 -> 93 [label="yes" color="#FF0000"]
+    46 -> 94 [label="no, missing" color="#0000FF"]
+
+    93 [ label="year<2017" ]
+    93 -> 179 [label="yes" color="#FF0000"]
+    93 -> 180 [label="no, missing" color="#0000FF"]
+
+    179 [ label="dayofyear<73" ]
+    179 -> 321 [label="yes" color="#FF0000"]
+    179 -> 322 [label="no, missing" color="#0000FF"]
+
+    321 [ label="dayofyear<65" ]
+    321 -> 505 [label="yes" color="#FF0000"]
+    321 -> 506 [label="no, missing" color="#0000FF"]
+
+    505 [ label="leaf=0.53436327" ]
+
+    506 [ label="leaf=0.665854096" ]
+
+    322 [ label="leaf=0.501220942" ]
+
+    180 [ label="dayofyear<70" ]
+    180 -> 323 [label="yes" color="#FF0000"]
+    180 -> 324 [label="no, missing" color="#0000FF"]
+
+    323 [ label="dayofyear<63" ]
+    323 -> 507 [label="yes" color="#FF0000"]
+    323 -> 508 [label="no, missing" color="#0000FF"]
+
+    507 [ label="leaf=1.00615513" ]
+
+    508 [ label="leaf=0.871070683" ]
+
+    324 [ label="dayofyear<77" ]
+    324 -> 509 [label="yes" color="#FF0000"]
+    324 -> 510 [label="no, missing" color="#0000FF"]
+
+    509 [ label="leaf=0.617661119" ]
+
+    510 [ label="leaf=0.808587611" ]
+
+    94 [ label="dayofweek<6" ]
+    94 -> 181 [label="yes" color="#FF0000"]
+    94 -> 182 [label="no, missing" color="#0000FF"]
+
+    181 [ label="year<2017" ]
+    181 -> 325 [label="yes" color="#FF0000"]
+    181 -> 326 [label="no, missing" color="#0000FF"]
+
+    325 [ label="dayofyear<67" ]
+    325 -> 511 [label="yes" color="#FF0000"]
+    325 -> 512 [label="no, missing" color="#0000FF"]
+
+    511 [ label="leaf=1.14905417" ]
+
+    512 [ label="leaf=1.23904657" ]
+
+    326 [ label="leaf=1.70415187" ]
+
+    182 [ label="year<2017" ]
+    182 -> 327 [label="yes" color="#FF0000"]
+    182 -> 328 [label="no, missing" color="#0000FF"]
+
+    327 [ label="dayofyear<74" ]
+    327 -> 513 [label="yes" color="#FF0000"]
+    327 -> 514 [label="no, missing" color="#0000FF"]
+
+    513 [ label="leaf=1.85347784" ]
+
+    514 [ label="leaf=2.00740314" ]
+
+    328 [ label="dayofyear<80" ]
+    328 -> 515 [label="yes" color="#FF0000"]
+    328 -> 516 [label="no, missing" color="#0000FF"]
+
+    515 [ label="leaf=2.34910798" ]
+
+    516 [ label="leaf=2.55847979" ]
+
+    2 [ label="dayofweek<4" ]
+    2 -> 5 [label="yes" color="#FF0000"]
+    2 -> 6 [label="no, missing" color="#0000FF"]
+
+    5 [ label="month<12" ]
+    5 -> 11 [label="yes" color="#FF0000"]
+    5 -> 12 [label="no, missing" color="#0000FF"]
+
+    11 [ label="year<2015" ]
+    11 -> 23 [label="yes" color="#FF0000"]
+    11 -> 24 [label="no, missing" color="#0000FF"]
+
+    23 [ label="dayofweek<1" ]
+    23 -> 47 [label="yes" color="#FF0000"]
+    23 -> 48 [label="no, missing" color="#0000FF"]
+
+    47 [ label="year<2014" ]
+    47 -> 95 [label="yes" color="#FF0000"]
+    47 -> 96 [label="no, missing" color="#0000FF"]
+
+    95 [ label="dayofyear<246" ]
+    95 -> 183 [label="yes" color="#FF0000"]
+    95 -> 184 [label="no, missing" color="#0000FF"]
+
+    183 [ label="dayofyear<134" ]
+    183 -> 329 [label="yes" color="#FF0000"]
+    183 -> 330 [label="no, missing" color="#0000FF"]
+
+    329 [ label="month<5" ]
+    329 -> 517 [label="yes" color="#FF0000"]
+    329 -> 518 [label="no, missing" color="#0000FF"]
+
+    517 [ label="leaf=-3.52145696" ]
+
+    518 [ label="leaf=-3.05691957" ]
+
+    330 [ label="month<8" ]
+    330 -> 519 [label="yes" color="#FF0000"]
+    330 -> 520 [label="no, missing" color="#0000FF"]
+
+    519 [ label="leaf=-2.17784095" ]
+
+    520 [ label="leaf=-2.97020078" ]
+
+    184 [ label="month<11" ]
+    184 -> 331 [label="yes" color="#FF0000"]
+    184 -> 332 [label="no, missing" color="#0000FF"]
+
+    331 [ label="month<10" ]
+    331 -> 521 [label="yes" color="#FF0000"]
+    331 -> 522 [label="no, missing" color="#0000FF"]
+
+    521 [ label="leaf=-3.47905612" ]
+
+    522 [ label="leaf=-4.09493113" ]
+
+    332 [ label="leaf=-3.4577682" ]
+
+    96 [ label="month<9" ]
+    96 -> 185 [label="yes" color="#FF0000"]
+    96 -> 186 [label="no, missing" color="#0000FF"]
+
+    185 [ label="month<6" ]
+    185 -> 333 [label="yes" color="#FF0000"]
+    185 -> 334 [label="no, missing" color="#0000FF"]
+
+    333 [ label="month<5" ]
+    333 -> 523 [label="yes" color="#FF0000"]
+    333 -> 524 [label="no, missing" color="#0000FF"]
+
+    523 [ label="leaf=-2.1978097" ]
+
+    524 [ label="leaf=-1.57006288" ]
+
+    334 [ label="month<8" ]
+    334 -> 525 [label="yes" color="#FF0000"]
+    334 -> 526 [label="no, missing" color="#0000FF"]
+
+    525 [ label="leaf=-0.60804373" ]
+
+    526 [ label="leaf=-1.65141213" ]
+
+    186 [ label="month<11" ]
+    186 -> 335 [label="yes" color="#FF0000"]
+    186 -> 336 [label="no, missing" color="#0000FF"]
+
+    335 [ label="month<10" ]
+    335 -> 527 [label="yes" color="#FF0000"]
+    335 -> 528 [label="no, missing" color="#0000FF"]
+
+    527 [ label="leaf=-2.32641649" ]
+
+    528 [ label="leaf=-2.8706727" ]
+
+    336 [ label="dayofyear<309" ]
+    336 -> 529 [label="yes" color="#FF0000"]
+    336 -> 530 [label="no, missing" color="#0000FF"]
+
+    529 [ label="leaf=-1.89715445" ]
+
+    530 [ label="leaf=-2.35863185" ]
+
+    48 [ label="year<2014" ]
+    48 -> 97 [label="yes" color="#FF0000"]
+    48 -> 98 [label="no, missing" color="#0000FF"]
+
+    97 [ label="month<9" ]
+    97 -> 187 [label="yes" color="#FF0000"]
+    97 -> 188 [label="no, missing" color="#0000FF"]
+
+    187 [ label="dayofyear<149" ]
+    187 -> 337 [label="yes" color="#FF0000"]
+    187 -> 338 [label="no, missing" color="#0000FF"]
+
+    337 [ label="month<5" ]
+    337 -> 531 [label="yes" color="#FF0000"]
+    337 -> 532 [label="no, missing" color="#0000FF"]
+
+    531 [ label="leaf=-1.96809399" ]
+
+    532 [ label="leaf=-1.19906056" ]
+
+    338 [ label="month<8" ]
+    338 -> 533 [label="yes" color="#FF0000"]
+    338 -> 534 [label="no, missing" color="#0000FF"]
+
+    533 [ label="leaf=-0.235882625" ]
+
+    534 [ label="leaf=-1.23480344" ]
+
+    188 [ label="dayofweek<3" ]
+    188 -> 339 [label="yes" color="#FF0000"]
+    188 -> 340 [label="no, missing" color="#0000FF"]
+
+    339 [ label="month<10" ]
+    339 -> 535 [label="yes" color="#FF0000"]
+    339 -> 536 [label="no, missing" color="#0000FF"]
+
+    535 [ label="leaf=-2.1100738" ]
+
+    536 [ label="leaf=-2.55247974" ]
+
+    340 [ label="month<10" ]
+    340 -> 537 [label="yes" color="#FF0000"]
+    340 -> 538 [label="no, missing" color="#0000FF"]
+
+    537 [ label="leaf=-1.45151365" ]
+
+    538 [ label="leaf=-1.90064061" ]
+
+    98 [ label="month<9" ]
+    98 -> 189 [label="yes" color="#FF0000"]
+    98 -> 190 [label="no, missing" color="#0000FF"]
+
+    189 [ label="dayofyear<149" ]
+    189 -> 341 [label="yes" color="#FF0000"]
+    189 -> 342 [label="no, missing" color="#0000FF"]
+
+    341 [ label="month<5" ]
+    341 -> 539 [label="yes" color="#FF0000"]
+    341 -> 540 [label="no, missing" color="#0000FF"]
+
+    539 [ label="leaf=-0.507852018" ]
+
+    540 [ label="leaf=0.347822398" ]
+
+    342 [ label="month<8" ]
+    342 -> 541 [label="yes" color="#FF0000"]
+    342 -> 542 [label="no, missing" color="#0000FF"]
+
+    541 [ label="leaf=1.44833732" ]
+
+    542 [ label="leaf=0.297617823" ]
+
+    190 [ label="dayofweek<3" ]
+    190 -> 343 [label="yes" color="#FF0000"]
+    190 -> 344 [label="no, missing" color="#0000FF"]
+
+    343 [ label="month<10" ]
+    343 -> 543 [label="yes" color="#FF0000"]
+    343 -> 544 [label="no, missing" color="#0000FF"]
+
+    543 [ label="leaf=-0.803633392" ]
+
+    544 [ label="leaf=-1.19815433" ]
+
+    344 [ label="month<10" ]
+    344 -> 545 [label="yes" color="#FF0000"]
+    344 -> 546 [label="no, missing" color="#0000FF"]
+
+    545 [ label="leaf=-0.0115226721" ]
+
+    546 [ label="leaf=-0.474311322" ]
+
+    24 [ label="dayofweek<1" ]
+    24 -> 49 [label="yes" color="#FF0000"]
+    24 -> 50 [label="no, missing" color="#0000FF"]
+
+    49 [ label="dayofyear<249" ]
+    49 -> 99 [label="yes" color="#FF0000"]
+    49 -> 100 [label="no, missing" color="#0000FF"]
+
+    99 [ label="dayofyear<154" ]
+    99 -> 191 [label="yes" color="#FF0000"]
+    99 -> 192 [label="no, missing" color="#0000FF"]
+
+    191 [ label="year<2016" ]
+    191 -> 345 [label="yes" color="#FF0000"]
+    191 -> 346 [label="no, missing" color="#0000FF"]
+
+    345 [ label="month<5" ]
+    345 -> 547 [label="yes" color="#FF0000"]
+    345 -> 548 [label="no, missing" color="#0000FF"]
+
+    547 [ label="leaf=-1.90525329" ]
+
+    548 [ label="leaf=-0.994416356" ]
+
+    346 [ label="month<5" ]
+    346 -> 549 [label="yes" color="#FF0000"]
+    346 -> 550 [label="no, missing" color="#0000FF"]
+
+    549 [ label="leaf=-0.89085263" ]
+
+    550 [ label="leaf=-0.209250376" ]
+
+    192 [ label="month<8" ]
+    192 -> 347 [label="yes" color="#FF0000"]
+    192 -> 348 [label="no, missing" color="#0000FF"]
+
+    347 [ label="year<2016" ]
+    347 -> 551 [label="yes" color="#FF0000"]
+    347 -> 552 [label="no, missing" color="#0000FF"]
+
+    551 [ label="leaf=-0.13945289" ]
+
+    552 [ label="leaf=1.0279845" ]
+
+    348 [ label="year<2016" ]
+    348 -> 553 [label="yes" color="#FF0000"]
+    348 -> 554 [label="no, missing" color="#0000FF"]
+
+    553 [ label="leaf=-1.13000286" ]
+
+    554 [ label="leaf=-0.159934759" ]
+
+    100 [ label="year<2016" ]
+    100 -> 193 [label="yes" color="#FF0000"]
+    100 -> 194 [label="no, missing" color="#0000FF"]
+
+    193 [ label="month<11" ]
+    193 -> 349 [label="yes" color="#FF0000"]
+    193 -> 350 [label="no, missing" color="#0000FF"]
+
+    349 [ label="month<10" ]
+    349 -> 555 [label="yes" color="#FF0000"]
+    349 -> 556 [label="no, missing" color="#0000FF"]
+
+    555 [ label="leaf=-1.89804471" ]
+
+    556 [ label="leaf=-2.67806339" ]
+
+    350 [ label="dayofyear<329" ]
+    350 -> 557 [label="yes" color="#FF0000"]
+    350 -> 558 [label="no, missing" color="#0000FF"]
+
+    557 [ label="leaf=-1.83724809" ]
+
+    558 [ label="leaf=-2.1307683" ]
+
+    194 [ label="year<2017" ]
+    194 -> 351 [label="yes" color="#FF0000"]
+    194 -> 352 [label="no, missing" color="#0000FF"]
+
+    351 [ label="month<10" ]
+    351 -> 559 [label="yes" color="#FF0000"]
+    351 -> 560 [label="no, missing" color="#0000FF"]
+
+    559 [ label="leaf=-1.11553168" ]
+
+    560 [ label="leaf=-1.53290427" ]
+
+    352 [ label="month<11" ]
+    352 -> 561 [label="yes" color="#FF0000"]
+    352 -> 562 [label="no, missing" color="#0000FF"]
+
+    561 [ label="leaf=-1.11584532" ]
+
+    562 [ label="leaf=-0.658368528" ]
+
+    50 [ label="month<9" ]
+    50 -> 101 [label="yes" color="#FF0000"]
+    50 -> 102 [label="no, missing" color="#0000FF"]
+
+    101 [ label="month<6" ]
+    101 -> 195 [label="yes" color="#FF0000"]
+    101 -> 196 [label="no, missing" color="#0000FF"]
+
+    195 [ label="year<2016" ]
+    195 -> 353 [label="yes" color="#FF0000"]
+    195 -> 354 [label="no, missing" color="#0000FF"]
+
+    353 [ label="dayofyear<120" ]
+    353 -> 563 [label="yes" color="#FF0000"]
+    353 -> 564 [label="no, missing" color="#0000FF"]
+
+    563 [ label="leaf=-0.00822592527" ]
+
+    564 [ label="leaf=0.825114012" ]
+
+    354 [ label="month<5" ]
+    354 -> 565 [label="yes" color="#FF0000"]
+    354 -> 566 [label="no, missing" color="#0000FF"]
+
+    565 [ label="leaf=1.11390102" ]
+
+    566 [ label="leaf=2.10338831" ]
+
+    196 [ label="month<8" ]
+    196 -> 355 [label="yes" color="#FF0000"]
+    196 -> 356 [label="no, missing" color="#0000FF"]
+
+    355 [ label="year<2016" ]
+    355 -> 567 [label="yes" color="#FF0000"]
+    355 -> 568 [label="no, missing" color="#0000FF"]
+
+    567 [ label="leaf=2.10126829" ]
+
+    568 [ label="leaf=3.47830343" ]
+
+    356 [ label="year<2016" ]
+    356 -> 569 [label="yes" color="#FF0000"]
+    356 -> 570 [label="no, missing" color="#0000FF"]
+
+    569 [ label="leaf=0.84452033" ]
+
+    570 [ label="leaf=2.09723711" ]
+
+    102 [ label="year<2016" ]
+    102 -> 197 [label="yes" color="#FF0000"]
+    102 -> 198 [label="no, missing" color="#0000FF"]
+
+    197 [ label="dayofweek<3" ]
+    197 -> 357 [label="yes" color="#FF0000"]
+    197 -> 358 [label="no, missing" color="#0000FF"]
+
+    357 [ label="month<10" ]
+    357 -> 571 [label="yes" color="#FF0000"]
+    357 -> 572 [label="no, missing" color="#0000FF"]
+
+    571 [ label="leaf=-0.268073827" ]
+
+    572 [ label="leaf=-0.690773308" ]
+
+    358 [ label="month<10" ]
+    358 -> 573 [label="yes" color="#FF0000"]
+    358 -> 574 [label="no, missing" color="#0000FF"]
+
+    573 [ label="leaf=0.513224185" ]
+
+    574 [ label="leaf=0.0258176159" ]
+
+    198 [ label="dayofweek<3" ]
+    198 -> 359 [label="yes" color="#FF0000"]
+    198 -> 360 [label="no, missing" color="#0000FF"]
+
+    359 [ label="month<11" ]
+    359 -> 575 [label="yes" color="#FF0000"]
+    359 -> 576 [label="no, missing" color="#0000FF"]
+
+    575 [ label="leaf=0.458495587" ]
+
+    576 [ label="leaf=0.930420518" ]
+
+    360 [ label="month<11" ]
+    360 -> 577 [label="yes" color="#FF0000"]
+    360 -> 578 [label="no, missing" color="#0000FF"]
+
+    577 [ label="leaf=1.26259446" ]
+
+    578 [ label="leaf=1.84412098" ]
+
+    12 [ label="year<2015" ]
+    12 -> 25 [label="yes" color="#FF0000"]
+    12 -> 26 [label="no, missing" color="#0000FF"]
+
+    25 [ label="dayofweek<1" ]
+    25 -> 51 [label="yes" color="#FF0000"]
+    25 -> 52 [label="no, missing" color="#0000FF"]
+
+    51 [ label="year<2014" ]
+    51 -> 103 [label="yes" color="#FF0000"]
+    51 -> 104 [label="no, missing" color="#0000FF"]
+
+    103 [ label="leaf=-5.75725698" ]
+
+    104 [ label="leaf=-4.93423748" ]
+
+    52 [ label="year<2014" ]
+    52 -> 105 [label="yes" color="#FF0000"]
+    52 -> 106 [label="no, missing" color="#0000FF"]
+
+    105 [ label="dayofweek<3" ]
+    105 -> 199 [label="yes" color="#FF0000"]
+    105 -> 200 [label="no, missing" color="#0000FF"]
+
+    199 [ label="leaf=-4.80648565" ]
+
+    200 [ label="leaf=-4.3091054" ]
+
+    106 [ label="dayofweek<3" ]
+    106 -> 201 [label="yes" color="#FF0000"]
+    106 -> 202 [label="no, missing" color="#0000FF"]
+
+    201 [ label="leaf=-3.78562999" ]
+
+    202 [ label="leaf=-3.28077674" ]
+
+    26 [ label="dayofweek<1" ]
+    26 -> 53 [label="yes" color="#FF0000"]
+    26 -> 54 [label="no, missing" color="#0000FF"]
+
+    53 [ label="year<2016" ]
+    53 -> 107 [label="yes" color="#FF0000"]
+    53 -> 108 [label="no, missing" color="#0000FF"]
+
+    107 [ label="leaf=-4.63253641" ]
+
+    108 [ label="year<2017" ]
+    108 -> 203 [label="yes" color="#FF0000"]
+    108 -> 204 [label="no, missing" color="#0000FF"]
+
+    203 [ label="leaf=-4.11991405" ]
+
+    204 [ label="leaf=-3.7901454" ]
+
+    54 [ label="year<2016" ]
+    54 -> 109 [label="yes" color="#FF0000"]
+    54 -> 110 [label="no, missing" color="#0000FF"]
+
+    109 [ label="dayofweek<3" ]
+    109 -> 205 [label="yes" color="#FF0000"]
+    109 -> 206 [label="no, missing" color="#0000FF"]
+
+    205 [ label="leaf=-3.49349403" ]
+
+    206 [ label="leaf=-2.97731829" ]
+
+    110 [ label="dayofweek<3" ]
+    110 -> 207 [label="yes" color="#FF0000"]
+    110 -> 208 [label="no, missing" color="#0000FF"]
+
+    207 [ label="year<2017" ]
+    207 -> 361 [label="yes" color="#FF0000"]
+    207 -> 362 [label="no, missing" color="#0000FF"]
+
+    361 [ label="dayofyear<356" ]
+    361 -> 579 [label="yes" color="#FF0000"]
+    361 -> 580 [label="no, missing" color="#0000FF"]
+
+    579 [ label="leaf=-2.86377883" ]
+
+    580 [ label="leaf=-3.02722788" ]
+
+    362 [ label="dayofyear<347" ]
+    362 -> 581 [label="yes" color="#FF0000"]
+    362 -> 582 [label="no, missing" color="#0000FF"]
+
+    581 [ label="leaf=-2.68942761" ]
+
+    582 [ label="leaf=-2.41406941" ]
+
+    208 [ label="year<2017" ]
+    208 -> 363 [label="yes" color="#FF0000"]
+    208 -> 364 [label="no, missing" color="#0000FF"]
+
+    363 [ label="dayofyear<337" ]
+    363 -> 583 [label="yes" color="#FF0000"]
+    363 -> 584 [label="no, missing" color="#0000FF"]
+
+    583 [ label="leaf=-2.27758789" ]
+
+    584 [ label="leaf=-2.11879063" ]
+
+    364 [ label="dayofyear<356" ]
+    364 -> 585 [label="yes" color="#FF0000"]
+    364 -> 586 [label="no, missing" color="#0000FF"]
+
+    585 [ label="leaf=-1.74892604" ]
+
+    586 [ label="leaf=-1.94298565" ]
+
+    6 [ label="month<12" ]
+    6 -> 13 [label="yes" color="#FF0000"]
+    6 -> 14 [label="no, missing" color="#0000FF"]
+
+    13 [ label="year<2015" ]
+    13 -> 27 [label="yes" color="#FF0000"]
+    13 -> 28 [label="no, missing" color="#0000FF"]
+
+    27 [ label="year<2014" ]
+    27 -> 55 [label="yes" color="#FF0000"]
+    27 -> 56 [label="no, missing" color="#0000FF"]
+
+    55 [ label="dayofyear<238" ]
+    55 -> 111 [label="yes" color="#FF0000"]
+    55 -> 112 [label="no, missing" color="#0000FF"]
+
+    111 [ label="month<6" ]
+    111 -> 209 [label="yes" color="#FF0000"]
+    111 -> 210 [label="no, missing" color="#0000FF"]
+
+    209 [ label="dayofweek<6" ]
+    209 -> 365 [label="yes" color="#FF0000"]
+    209 -> 366 [label="no, missing" color="#0000FF"]
+
+    365 [ label="month<5" ]
+    365 -> 587 [label="yes" color="#FF0000"]
+    365 -> 588 [label="no, missing" color="#0000FF"]
+
+    587 [ label="leaf=-0.482938707" ]
+
+    588 [ label="leaf=0.246895149" ]
+
+    366 [ label="month<5" ]
+    366 -> 589 [label="yes" color="#FF0000"]
+    366 -> 590 [label="no, missing" color="#0000FF"]
+
+    589 [ label="leaf=0.497952223" ]
+
+    590 [ label="leaf=1.48030233" ]
+
+    210 [ label="month<8" ]
+    210 -> 367 [label="yes" color="#FF0000"]
+    210 -> 368 [label="no, missing" color="#0000FF"]
+
+    367 [ label="dayofweek<5" ]
+    367 -> 591 [label="yes" color="#FF0000"]
+    367 -> 592 [label="no, missing" color="#0000FF"]
+
+    591 [ label="leaf=1.12670457" ]
+
+    592 [ label="leaf=2.23815155" ]
+
+    368 [ label="dayofweek<5" ]
+    368 -> 593 [label="yes" color="#FF0000"]
+    368 -> 594 [label="no, missing" color="#0000FF"]
+
+    593 [ label="leaf=-0.078272976" ]
+
+    594 [ label="leaf=0.957201838" ]
+
+    112 [ label="dayofweek<5" ]
+    112 -> 211 [label="yes" color="#FF0000"]
+    112 -> 212 [label="no, missing" color="#0000FF"]
+
+    211 [ label="dayofyear<257" ]
+    211 -> 369 [label="yes" color="#FF0000"]
+    211 -> 370 [label="no, missing" color="#0000FF"]
+
+    369 [ label="month<9" ]
+    369 -> 595 [label="yes" color="#FF0000"]
+    369 -> 596 [label="no, missing" color="#0000FF"]
+
+    595 [ label="leaf=-0.258003235" ]
+
+    596 [ label="leaf=-0.664121866" ]
+
+    370 [ label="month<11" ]
+    370 -> 597 [label="yes" color="#FF0000"]
+    370 -> 598 [label="no, missing" color="#0000FF"]
+
+    597 [ label="leaf=-1.40461957" ]
+
+    598 [ label="leaf=-0.742645383" ]
+
+    212 [ label="dayofweek<6" ]
+    212 -> 371 [label="yes" color="#FF0000"]
+    212 -> 372 [label="no, missing" color="#0000FF"]
+
+    371 [ label="month<9" ]
+    371 -> 599 [label="yes" color="#FF0000"]
+    371 -> 600 [label="no, missing" color="#0000FF"]
+
+    599 [ label="leaf=0.604529798" ]
+
+    600 [ label="leaf=-0.410196424" ]
+
+    372 [ label="month<10" ]
+    372 -> 601 [label="yes" color="#FF0000"]
+    372 -> 602 [label="no, missing" color="#0000FF"]
+
+    601 [ label="leaf=0.551740348" ]
+
+    602 [ label="leaf=0.109017514" ]
+
+    56 [ label="month<9" ]
+    56 -> 113 [label="yes" color="#FF0000"]
+    56 -> 114 [label="no, missing" color="#0000FF"]
+
+    113 [ label="month<6" ]
+    113 -> 213 [label="yes" color="#FF0000"]
+    113 -> 214 [label="no, missing" color="#0000FF"]
+
+    213 [ label="dayofweek<5" ]
+    213 -> 373 [label="yes" color="#FF0000"]
+    213 -> 374 [label="no, missing" color="#0000FF"]
+
+    373 [ label="month<5" ]
+    373 -> 603 [label="yes" color="#FF0000"]
+    373 -> 604 [label="no, missing" color="#0000FF"]
+
+    603 [ label="leaf=0.708516419" ]
+
+    604 [ label="leaf=1.61985552" ]
+
+    374 [ label="dayofyear<117" ]
+    374 -> 605 [label="yes" color="#FF0000"]
+    374 -> 606 [label="no, missing" color="#0000FF"]
+
+    605 [ label="leaf=1.94798779" ]
+
+    606 [ label="leaf=2.81132507" ]
+
+    214 [ label="month<8" ]
+    214 -> 375 [label="yes" color="#FF0000"]
+    214 -> 376 [label="no, missing" color="#0000FF"]
+
+    375 [ label="dayofweek<6" ]
+    375 -> 607 [label="yes" color="#FF0000"]
+    375 -> 608 [label="no, missing" color="#0000FF"]
+
+    607 [ label="leaf=3.40752435" ]
+
+    608 [ label="leaf=4.78109169" ]
+
+    376 [ label="dayofweek<6" ]
+    376 -> 609 [label="yes" color="#FF0000"]
+    376 -> 610 [label="no, missing" color="#0000FF"]
+
+    609 [ label="leaf=2.06027675" ]
+
+    610 [ label="leaf=3.37868571" ]
+
+    114 [ label="dayofweek<5" ]
+    114 -> 215 [label="yes" color="#FF0000"]
+    114 -> 216 [label="no, missing" color="#0000FF"]
+
+    215 [ label="month<11" ]
+    215 -> 377 [label="yes" color="#FF0000"]
+    215 -> 378 [label="no, missing" color="#0000FF"]
+
+    377 [ label="month<10" ]
+    377 -> 611 [label="yes" color="#FF0000"]
+    377 -> 612 [label="no, missing" color="#0000FF"]
+
+    611 [ label="leaf=0.726418674" ]
+
+    612 [ label="leaf=-0.0962724388" ]
+
+    378 [ label="dayofyear<319" ]
+    378 -> 613 [label="yes" color="#FF0000"]
+    378 -> 614 [label="no, missing" color="#0000FF"]
+
+    613 [ label="leaf=0.971397758" ]
+
+    614 [ label="leaf=0.682928383" ]
+
+    216 [ label="dayofweek<6" ]
+    216 -> 379 [label="yes" color="#FF0000"]
+    216 -> 380 [label="no, missing" color="#0000FF"]
+
+    379 [ label="month<11" ]
+    379 -> 615 [label="yes" color="#FF0000"]
+    379 -> 616 [label="no, missing" color="#0000FF"]
+
+    615 [ label="leaf=1.13006699" ]
+
+    616 [ label="leaf=1.55837095" ]
+
+    380 [ label="month<11" ]
+    380 -> 617 [label="yes" color="#FF0000"]
+    380 -> 618 [label="no, missing" color="#0000FF"]
+
+    617 [ label="leaf=1.77826464" ]
+
+    618 [ label="leaf=2.35399127" ]
+
+    28 [ label="month<9" ]
+    28 -> 57 [label="yes" color="#FF0000"]
+    28 -> 58 [label="no, missing" color="#0000FF"]
+
+    57 [ label="month<6" ]
+    57 -> 115 [label="yes" color="#FF0000"]
+    57 -> 116 [label="no, missing" color="#0000FF"]
+
+    115 [ label="year<2016" ]
+    115 -> 217 [label="yes" color="#FF0000"]
+    115 -> 218 [label="no, missing" color="#0000FF"]
+
+    217 [ label="dayofweek<5" ]
+    217 -> 381 [label="yes" color="#FF0000"]
+    217 -> 382 [label="no, missing" color="#0000FF"]
+
+    381 [ label="month<5" ]
+    381 -> 619 [label="yes" color="#FF0000"]
+    381 -> 620 [label="no, missing" color="#0000FF"]
+
+    619 [ label="leaf=1.26827776" ]
+
+    620 [ label="leaf=2.25907516" ]
+
+    382 [ label="month<5" ]
+    382 -> 621 [label="yes" color="#FF0000"]
+    382 -> 622 [label="no, missing" color="#0000FF"]
+
+    621 [ label="leaf=2.54800344" ]
+
+    622 [ label="leaf=3.45346832" ]
+
+    218 [ label="dayofweek<6" ]
+    218 -> 383 [label="yes" color="#FF0000"]
+    218 -> 384 [label="no, missing" color="#0000FF"]
+
+    383 [ label="month<5" ]
+    383 -> 623 [label="yes" color="#FF0000"]
+    383 -> 624 [label="no, missing" color="#0000FF"]
+
+    623 [ label="leaf=3.06933403" ]
+
+    624 [ label="leaf=4.1896472" ]
+
+    384 [ label="month<5" ]
+    384 -> 625 [label="yes" color="#FF0000"]
+    384 -> 626 [label="no, missing" color="#0000FF"]
+
+    625 [ label="leaf=4.47240543" ]
+
+    626 [ label="leaf=5.54291439" ]
+
+    116 [ label="year<2016" ]
+    116 -> 219 [label="yes" color="#FF0000"]
+    116 -> 220 [label="no, missing" color="#0000FF"]
+
+    219 [ label="month<8" ]
+    219 -> 385 [label="yes" color="#FF0000"]
+    219 -> 386 [label="no, missing" color="#0000FF"]
+
+    385 [ label="dayofweek<6" ]
+    385 -> 627 [label="yes" color="#FF0000"]
+    385 -> 628 [label="no, missing" color="#0000FF"]
+
+    627 [ label="leaf=4.06248474" ]
+
+    628 [ label="leaf=5.54919958" ]
+
+    386 [ label="dayofweek<6" ]
+    386 -> 629 [label="yes" color="#FF0000"]
+    386 -> 630 [label="no, missing" color="#0000FF"]
+
+    629 [ label="leaf=2.68690062" ]
+
+    630 [ label="leaf=3.98480392" ]
+
+    220 [ label="dayofweek<5" ]
+    220 -> 387 [label="yes" color="#FF0000"]
+    220 -> 388 [label="no, missing" color="#0000FF"]
+
+    387 [ label="month<8" ]
+    387 -> 631 [label="yes" color="#FF0000"]
+    387 -> 632 [label="no, missing" color="#0000FF"]
+
+    631 [ label="leaf=5.11633825" ]
+
+    632 [ label="leaf=3.61166739" ]
+
+    388 [ label="month<8" ]
+    388 -> 633 [label="yes" color="#FF0000"]
+    388 -> 634 [label="no, missing" color="#0000FF"]
+
+    633 [ label="leaf=6.80546284" ]
+
+    634 [ label="leaf=5.12668371" ]
+
+    58 [ label="year<2016" ]
+    58 -> 117 [label="yes" color="#FF0000"]
+    58 -> 118 [label="no, missing" color="#0000FF"]
+
+    117 [ label="dayofweek<6" ]
+    117 -> 221 [label="yes" color="#FF0000"]
+    117 -> 222 [label="no, missing" color="#0000FF"]
+
+    221 [ label="dayofweek<5" ]
+    221 -> 389 [label="yes" color="#FF0000"]
+    221 -> 390 [label="no, missing" color="#0000FF"]
+
+    389 [ label="month<10" ]
+    389 -> 635 [label="yes" color="#FF0000"]
+    389 -> 636 [label="no, missing" color="#0000FF"]
+
+    635 [ label="leaf=1.49477696" ]
+
+    636 [ label="leaf=0.833423018" ]
+
+    390 [ label="month<10" ]
+    390 -> 637 [label="yes" color="#FF0000"]
+    390 -> 638 [label="no, missing" color="#0000FF"]
+
+    637 [ label="leaf=2.14804101" ]
+
+    638 [ label="leaf=1.63657868" ]
+
+    222 [ label="month<10" ]
+    222 -> 391 [label="yes" color="#FF0000"]
+    222 -> 392 [label="no, missing" color="#0000FF"]
+
+    391 [ label="dayofyear<250" ]
+    391 -> 639 [label="yes" color="#FF0000"]
+    391 -> 640 [label="no, missing" color="#0000FF"]
+
+    639 [ label="leaf=2.73229814" ]
+
+    640 [ label="leaf=3.05980015" ]
+
+    392 [ label="month<11" ]
+    392 -> 641 [label="yes" color="#FF0000"]
+    392 -> 642 [label="no, missing" color="#0000FF"]
+
+    641 [ label="leaf=1.99145401" ]
+
+    642 [ label="leaf=2.89090872" ]
+
+    118 [ label="dayofweek<6" ]
+    118 -> 223 [label="yes" color="#FF0000"]
+    118 -> 224 [label="no, missing" color="#0000FF"]
+
+    223 [ label="dayofweek<5" ]
+    223 -> 393 [label="yes" color="#FF0000"]
+    223 -> 394 [label="no, missing" color="#0000FF"]
+
+    393 [ label="dayofyear<273" ]
+    393 -> 643 [label="yes" color="#FF0000"]
+    393 -> 644 [label="no, missing" color="#0000FF"]
+
+    643 [ label="leaf=2.71944737" ]
+
+    644 [ label="leaf=2.13862491" ]
+
+    394 [ label="year<2017" ]
+    394 -> 645 [label="yes" color="#FF0000"]
+    394 -> 646 [label="no, missing" color="#0000FF"]
+
+    645 [ label="leaf=2.8125062" ]
+
+    646 [ label="leaf=3.44403672" ]
+
+    224 [ label="month<10" ]
+    224 -> 395 [label="yes" color="#FF0000"]
+    224 -> 396 [label="no, missing" color="#0000FF"]
+
+    395 [ label="year<2017" ]
+    395 -> 647 [label="yes" color="#FF0000"]
+    395 -> 648 [label="no, missing" color="#0000FF"]
+
+    647 [ label="leaf=4.21068525" ]
+
+    648 [ label="leaf=4.73611403" ]
+
+    396 [ label="month<11" ]
+    396 -> 649 [label="yes" color="#FF0000"]
+    396 -> 650 [label="no, missing" color="#0000FF"]
+
+    649 [ label="leaf=3.25341225" ]
+
+    650 [ label="leaf=4.40773249" ]
+
+    14 [ label="year<2015" ]
+    14 -> 29 [label="yes" color="#FF0000"]
+    14 -> 30 [label="no, missing" color="#0000FF"]
+
+    29 [ label="year<2014" ]
+    29 -> 59 [label="yes" color="#FF0000"]
+    29 -> 60 [label="no, missing" color="#0000FF"]
+
+    59 [ label="dayofweek<6" ]
+    59 -> 119 [label="yes" color="#FF0000"]
+    59 -> 120 [label="no, missing" color="#0000FF"]
+
+    119 [ label="dayofweek<5" ]
+    119 -> 225 [label="yes" color="#FF0000"]
+    119 -> 226 [label="no, missing" color="#0000FF"]
+
+    225 [ label="leaf=-3.96358299" ]
+
+    226 [ label="leaf=-3.40767598" ]
+
+    120 [ label="dayofyear<343" ]
+    120 -> 227 [label="yes" color="#FF0000"]
+    120 -> 228 [label="no, missing" color="#0000FF"]
+
+    227 [ label="leaf=-2.98649406" ]
+
+    228 [ label="dayofyear<357" ]
+    228 -> 397 [label="yes" color="#FF0000"]
+    228 -> 398 [label="no, missing" color="#0000FF"]
+
+    397 [ label="leaf=-2.7239275" ]
+
+    398 [ label="leaf=-2.91869354" ]
+
+    60 [ label="dayofweek<5" ]
+    60 -> 121 [label="yes" color="#FF0000"]
+    60 -> 122 [label="no, missing" color="#0000FF"]
+
+    121 [ label="dayofyear<340" ]
+    121 -> 229 [label="yes" color="#FF0000"]
+    121 -> 230 [label="no, missing" color="#0000FF"]
+
+    229 [ label="leaf=-2.92021894" ]
+
+    230 [ label="leaf=-2.73781013" ]
+
+    122 [ label="dayofweek<6" ]
+    122 -> 231 [label="yes" color="#FF0000"]
+    122 -> 232 [label="no, missing" color="#0000FF"]
+
+    231 [ label="leaf=-2.19001245" ]
+
+    232 [ label="dayofyear<343" ]
+    232 -> 399 [label="yes" color="#FF0000"]
+    232 -> 400 [label="no, missing" color="#0000FF"]
+
+    399 [ label="leaf=-1.82351398" ]
+
+    400 [ label="leaf=-1.61887968" ]
+
+    30 [ label="year<2016" ]
+    30 -> 61 [label="yes" color="#FF0000"]
+    30 -> 62 [label="no, missing" color="#0000FF"]
+
+    61 [ label="dayofweek<6" ]
+    61 -> 123 [label="yes" color="#FF0000"]
+    61 -> 124 [label="no, missing" color="#0000FF"]
+
+    123 [ label="dayofweek<5" ]
+    123 -> 233 [label="yes" color="#FF0000"]
+    123 -> 234 [label="no, missing" color="#0000FF"]
+
+    233 [ label="dayofyear<353" ]
+    233 -> 401 [label="yes" color="#FF0000"]
+    233 -> 402 [label="no, missing" color="#0000FF"]
+
+    401 [ label="leaf=-2.36120415" ]
+
+    402 [ label="leaf=-2.19670391" ]
+
+    234 [ label="dayofyear<347" ]
+    234 -> 403 [label="yes" color="#FF0000"]
+    234 -> 404 [label="no, missing" color="#0000FF"]
+
+    403 [ label="leaf=-1.71335328" ]
+
+    404 [ label="leaf=-1.85921288" ]
+
+    124 [ label="dayofyear<348" ]
+    124 -> 235 [label="yes" color="#FF0000"]
+    124 -> 236 [label="no, missing" color="#0000FF"]
+
+    235 [ label="leaf=-1.23982513" ]
+
+    236 [ label="leaf=-1.12106156" ]
+
+    62 [ label="dayofweek<5" ]
+    62 -> 125 [label="yes" color="#FF0000"]
+    62 -> 126 [label="no, missing" color="#0000FF"]
+
+    125 [ label="year<2017" ]
+    125 -> 237 [label="yes" color="#FF0000"]
+    125 -> 238 [label="no, missing" color="#0000FF"]
+
+    237 [ label="dayofyear<346" ]
+    237 -> 405 [label="yes" color="#FF0000"]
+    237 -> 406 [label="no, missing" color="#0000FF"]
+
+    405 [ label="leaf=-1.4166019" ]
+
+    406 [ label="dayofyear<353" ]
+    406 -> 651 [label="yes" color="#FF0000"]
+    406 -> 652 [label="no, missing" color="#0000FF"]
+
+    651 [ label="leaf=-1.63533056" ]
+
+    652 [ label="leaf=-1.77405167" ]
+
+    238 [ label="dayofyear<343" ]
+    238 -> 407 [label="yes" color="#FF0000"]
+    238 -> 408 [label="no, missing" color="#0000FF"]
+
+    407 [ label="leaf=-1.28038728" ]
+
+    408 [ label="leaf=-1.13815045" ]
+
+    126 [ label="dayofweek<6" ]
+    126 -> 239 [label="yes" color="#FF0000"]
+    126 -> 240 [label="no, missing" color="#0000FF"]
+
+    239 [ label="year<2017" ]
+    239 -> 409 [label="yes" color="#FF0000"]
+    239 -> 410 [label="no, missing" color="#0000FF"]
+
+    409 [ label="dayofyear<346" ]
+    409 -> 653 [label="yes" color="#FF0000"]
+    409 -> 654 [label="no, missing" color="#0000FF"]
+
+    653 [ label="leaf=-0.782187223" ]
+
+    654 [ label="leaf=-0.941711783" ]
+
+    410 [ label="dayofyear<337" ]
+    410 -> 655 [label="yes" color="#FF0000"]
+    410 -> 656 [label="no, missing" color="#0000FF"]
+
+    655 [ label="leaf=-0.777075231" ]
+
+    656 [ label="leaf=-0.493807495" ]
+
+    240 [ label="year<2017" ]
+    240 -> 411 [label="yes" color="#FF0000"]
+    240 -> 412 [label="no, missing" color="#0000FF"]
+
+    411 [ label="dayofyear<340" ]
+    411 -> 657 [label="yes" color="#FF0000"]
+    411 -> 658 [label="no, missing" color="#0000FF"]
+
+    657 [ label="leaf=-0.336408943" ]
+
+    658 [ label="leaf=-0.484303027" ]
+
+    412 [ label="dayofyear<353" ]
+    412 -> 659 [label="yes" color="#FF0000"]
+    412 -> 660 [label="no, missing" color="#0000FF"]
+
+    659 [ label="leaf=0.22909613" ]
+
+    660 [ label="leaf=0.0270916522" ]
+}
